@@ -50,6 +50,12 @@ kuttas4Method = ButcherTableau { w = V4 (V4 0 0 0 0) (V4 (1/2) 0 0 0) (V4 0 (1/2
                                }
 
 
+rule38Method = ButcherTableau { w = V4 (V4 0 0 0 0) (V4 (1/3) 0 0 0) (V4 ((-1)/3) 1 0 0) (V4 1 (-1) 1 0)
+                              , c = V4 0 (1/3) (2/3) 1
+                              , b = V4 (1/8) (3/8) (3/8) (1/8)
+                              }
+
+
 
 -- dx/dt = f(x, t)
 -- x(t0) = x0
